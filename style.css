@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border;
+  
+}
+
+
+.row{
+  background-color: greenyellow;
+  border-radius: 30px;
+  box-shadow: 12px 12px 27px;
+  width: auto;
+  height: 37.5rem;
+}
+
+img{
+  width: 120%;
+  height: 37.5rem;
+  border-top-right-radius:30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius:30px ;
+  border-top-left-radius: 30px;
+}
+
+.login h1{
+  font-size: 4rem;
+  font-weight: 300;
+}
+.inp{
+  height: 50px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-radius: 60px;
+  box-shadow: -26px -19px -30px -19px rgb(rgb(3, 0, 0), green, blue);
+}
+.btn1{
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 60px;
+  font-weight: 600px;
+  background-color: blue;
+}
+
+.btn1:hover{
+  background-color: rgb(10,150,163);
+}
+
+.fa{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.fa.hover{
+  color: green;
+}
+this is a shortcut instead of writing all the fa fonts
+you can hover individual colors if you want 
